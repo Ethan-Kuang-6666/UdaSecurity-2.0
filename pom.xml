@@ -5,8 +5,8 @@
   <artifactId>UdaSecurity-2.0</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>SecurityService</module>
-    <module>ImageService</module>
+    <module>SecurityServiceModule</module>
+    <module>ImageServiceModule</module>
   </modules>
   <packaging>pom</packaging>
   <name>UdaSecurity-2.0</name>
