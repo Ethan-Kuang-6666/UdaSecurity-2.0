@@ -4,23 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.0">
-      <change afterPath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/AwsImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/FakeImageService.java" afterDir="false" />
+    <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.1">
+      <change afterPath="$PROJECT_DIR$/ImageServiceModule/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ImageServiceModule/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ImageServiceModule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageService/src/main/java/com/udacity/jpnd/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageService/src/test/java/com/udacity/jpnd/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityService/src/main/java/com/udacity/jpnd/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityService/src/test/java/com/udacity/jpnd/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageServiceModule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ImageServiceModule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/CatpointApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/CatpointApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/CatpointGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/CatpointGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/DisplayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/DisplayPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/ImagePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/ImagePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/SensorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/StatusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/StatusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/AlarmStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/AlarmStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/ArmingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/ArmingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/PretendDatabaseSecurityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/PretendDatabaseSecurityRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/SecurityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/SensorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/SensorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/StyleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/StyleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,19 +47,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2JQTQAG6Ekp6YBBUlk3vV1viatT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "16",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gant"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672009434103</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1">
+      <created>1672093066369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672093066369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
   </component>
 </project>
