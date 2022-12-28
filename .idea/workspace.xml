@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.1">
+      <change afterPath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/ImageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/AwsImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/AwsImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/FakeImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageServiceModule/src/main/java/com/udacity/image/service/FakeImageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -81,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672099405744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.1">
+      <created>1672260990916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672260990916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
