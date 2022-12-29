@@ -37,7 +37,19 @@
             <groupId>com.udacity.jpnd</groupId>
             <artifactId>ImageService</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.udacity.security.application.CatpointApp</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

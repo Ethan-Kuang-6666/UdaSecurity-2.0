@@ -1,5 +1,7 @@
 package com.udacity.security.application;
 
+import com.udacity.image.service.AwsImageService;
+import com.udacity.image.service.ImageService;
 import com.udacity.security.data.PretendDatabaseSecurityRepositoryImpl;
 import com.udacity.security.data.SecurityRepository;
 import com.udacity.image.service.FakeImageService;
@@ -16,7 +18,7 @@ import javax.swing.*;
  */
 public class CatpointGui extends JFrame {
     private SecurityRepository securityRepository = new PretendDatabaseSecurityRepositoryImpl();
-    private FakeImageService imageService = new FakeImageService();
+    private ImageService imageService = new FakeImageService();
     private SecurityService securityService = new SecurityService(securityRepository, imageService);
     private DisplayPanel displayPanel = new DisplayPanel(securityService);
     private ControlPanel controlPanel = new ControlPanel(securityService);
