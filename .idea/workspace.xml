@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.2">
+      <change afterPath="$PROJECT_DIR$/SecurityServiceModule/src/test/java/com/udacity/security/service/SecurityServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityServiceModule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/CatpointGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/CatpointGui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
       <list>
         <option value="module-info" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gant&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SecurityServiceTest.pending_alarm_inactive_sensors_test">
     <configuration name="CatpointApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.udacity.security.application.CatpointApp" />
       <module name="SecurityServiceModule" />
@@ -68,8 +70,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecurityServiceTest.alarm_armed_and_sensor_activated_pending_alarm_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecurityServiceModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.security.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.security.service" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.security.service.SecurityServiceTest" />
+      <option name="METHOD_NAME" value="alarm_armed_and_sensor_activated_pending_alarm_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityServiceTest.alarm_armed_and_sensor_activated_pending_alarm_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecurityServiceModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.security.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.security.service" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.security.service.SecurityServiceTest" />
+      <option name="METHOD_NAME" value="alarm_armed_and_sensor_activated_pending_alarm_test(org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityServiceTest.alarm_armed_and_sensors_activated_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecurityServiceModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.security.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.security.service" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.security.service.SecurityServiceTest" />
+      <option name="METHOD_NAME" value="alarm_armed_and_sensors_activated_test(org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityServiceTest.pending_alarm_inactive_sensors_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecurityServiceModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.security.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.security.service" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.security.service.SecurityServiceTest" />
+      <option name="METHOD_NAME" value="pending_alarm_inactive_sensors_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SecurityServiceTest.pending_alarm_inactive_sensors_test" />
+        <item itemvalue="JUnit.SecurityServiceTest.alarm_armed_and_sensors_activated_test" />
+        <item itemvalue="JUnit.SecurityServiceTest.alarm_armed_and_sensor_activated_pending_alarm_test (1)" />
+        <item itemvalue="JUnit.SecurityServiceTest.alarm_armed_and_sensor_activated_pending_alarm_test" />
         <item itemvalue="Application.CatpointApp" />
       </list>
     </recent_temporary>
@@ -118,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672264457551</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.2">
+      <created>1672275017180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672275017180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
