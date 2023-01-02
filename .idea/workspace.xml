@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.4">
+    <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.4 (Complete)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/data/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/SensorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/application/SensorPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/main/java/com/udacity/security/service/SecurityService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672696033440</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.4 (Complete)">
+      <created>1672701394670</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672701394670</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +242,8 @@
     <MESSAGE value="1.2" />
     <MESSAGE value="1.3 (before refactor)" />
     <MESSAGE value="1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.4" />
+    <MESSAGE value="1.4 (Complete)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.4 (Complete)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UdaSecurity_2_0$SecurityServiceTest.ic" NAME="SecurityServiceTest Coverage Results" MODIFIED="1672696131832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

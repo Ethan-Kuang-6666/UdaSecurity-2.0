@@ -46,6 +46,7 @@ public class SecurityService {
         } else {
             ConcurrentSkipListSet<Sensor> clonedSensors = new ConcurrentSkipListSet<Sensor>(getSensors());
             clonedSensors.forEach(sensor -> changeSensorActivationStatus(sensor, false));
+            statusListeners.forEach(statusListener -> statusListener.sensorStatusChanged());
         }
         if (armingStatus == ArmingStatus.ARMED_HOME && isCat) {
             setAlarmStatus(AlarmStatus.ALARM);
