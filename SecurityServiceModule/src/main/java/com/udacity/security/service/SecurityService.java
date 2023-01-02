@@ -9,7 +9,9 @@ import com.udacity.security.data.Sensor;
 
 import java.awt.image.BufferedImage;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 /**
  * Service that receives information about changes to the security system. Responsible for
@@ -42,12 +44,14 @@ public class SecurityService {
         if (armingStatus == ArmingStatus.DISARMED) {
             setAlarmStatus(AlarmStatus.NO_ALARM);
         } else {
-            getSensors().forEach(sensor -> changeSensorActivationStatus(sensor, false));
+            ConcurrentSkipListSet<Sensor> clonedSensors = new ConcurrentSkipListSet<Sensor>(getSensors());
+            clonedSensors.forEach(sensor -> changeSensorActivationStatus(sensor, false));
         }
         if (armingStatus == ArmingStatus.ARMED_HOME && isCat) {
             setAlarmStatus(AlarmStatus.ALARM);
         }
         this.armingStatus = armingStatus;
+        securityRepository.setArmingStatus(armingStatus);
     }
 
     private boolean areAllSensorsNotActive() {
@@ -94,6 +98,7 @@ public class SecurityService {
      */
     public void setAlarmStatus(AlarmStatus status) {
         this.alarmStatus = status;
+        securityRepository.setAlarmStatus(status);
         statusListeners.forEach(sl -> sl.notify(status));
     }
 
