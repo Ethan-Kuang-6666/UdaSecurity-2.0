@@ -63,6 +63,53 @@
                     <mainClass>com.udacity.security.application.CatpointApp</mainClass>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <archive>
+                                <manifest>
+                                    <mainClass>
+                                        com.udacity.security.application.CatpointApp
+                                    </mainClass>
+                                </manifest>
+                            </archive>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.7.2.1</version>
+                <dependencies>
+                    <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
+                    <dependency>
+                        <groupId>com.github.spotbugs</groupId>
+                        <artifactId>spotbugs</artifactId>
+                        <version>4.7.3</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
         </plugins>
     </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.7.2.1</version>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
