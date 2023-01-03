@@ -27,8 +27,6 @@ public class SecurityService {
     private Set<StatusListener> statusListeners = new HashSet<>();
     private boolean isCat = false;
 
-    private ArmingStatus armingStatus = ArmingStatus.DISARMED;
-    private AlarmStatus alarmStatus = AlarmStatus.NO_ALARM;
 
     public SecurityService(SecurityRepository securityRepository, ImageService imageService) {
         this.securityRepository = securityRepository;
@@ -43,15 +41,14 @@ public class SecurityService {
     public void setArmingStatus(ArmingStatus armingStatus) {
         if (armingStatus == ArmingStatus.DISARMED) {
             setAlarmStatus(AlarmStatus.NO_ALARM);
-        } else {
+        } else if (securityRepository.getArmingStatus() == ArmingStatus.DISARMED) {
             ConcurrentSkipListSet<Sensor> clonedSensors = new ConcurrentSkipListSet<Sensor>(getSensors());
             clonedSensors.forEach(sensor -> changeSensorActivationStatus(sensor, false));
             statusListeners.forEach(statusListener -> statusListener.sensorStatusChanged());
         }
-        if (armingStatus == ArmingStatus.ARMED_HOME && isCat) {
+        if (!(armingStatus == ArmingStatus.DISARMED) && isCat) {
             setAlarmStatus(AlarmStatus.ALARM);
         }
-        this.armingStatus = armingStatus;
         securityRepository.setArmingStatus(armingStatus);
     }
 
@@ -72,7 +69,7 @@ public class SecurityService {
      */
     private void catDetected(Boolean cat) {
         isCat = cat;
-        if(cat && getArmingStatus() == ArmingStatus.ARMED_HOME) {
+        if(cat && !(getArmingStatus() == ArmingStatus.DISARMED)) {
             setAlarmStatus(AlarmStatus.ALARM);
         } else if (areAllSensorsNotActive()) {
             setAlarmStatus(AlarmStatus.NO_ALARM);
@@ -98,7 +95,6 @@ public class SecurityService {
      * @param status
      */
     public void setAlarmStatus(AlarmStatus status) {
-        this.alarmStatus = status;
         securityRepository.setAlarmStatus(status);
         statusListeners.forEach(sl -> sl.notify(status));
     }
@@ -150,7 +146,7 @@ public class SecurityService {
     }
 
     public AlarmStatus getAlarmStatus() {
-        return alarmStatus;
+        return securityRepository.getAlarmStatus();
     }
 
     public Set<Sensor> getSensors() {
@@ -166,6 +162,6 @@ public class SecurityService {
     }
 
     public ArmingStatus getArmingStatus() {
-        return armingStatus;
+        return securityRepository.getArmingStatus();
     }
 }

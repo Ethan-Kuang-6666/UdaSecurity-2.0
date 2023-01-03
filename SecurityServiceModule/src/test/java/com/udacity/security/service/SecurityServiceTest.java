@@ -44,6 +44,7 @@ public class SecurityServiceTest {
 
 
     @Test
+    @DisplayName("Test 1")
     public void alarm_armed_and_sensors_activated_test() {
         Mockito.when(sensor1.getActive()).thenReturn(false);
         securityService.setArmingStatus(ArmingStatus.ARMED_AWAY);
