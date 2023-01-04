@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityServiceModule/src/test/java/com/udacity/security/service/SecurityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityServiceModule/src/test/java/com/udacity/security/service/SecurityServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672805395438</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.8">
+      <created>1672806028449</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672806028449</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
