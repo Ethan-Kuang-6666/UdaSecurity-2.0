@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.7">
+    <list default="true" id="4ae1b248-122e-4ae0-b435-a63e176baec9" name="Changes" comment="1.8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672730526743</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.8">
+      <created>1672802911786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672802911786</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +275,8 @@
     <MESSAGE value="1.5" />
     <MESSAGE value="1.6" />
     <MESSAGE value="1.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.7" />
+    <MESSAGE value="1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UdaSecurity_2_0$SecurityServiceTest.ic" NAME="SecurityServiceTest Coverage Results" MODIFIED="1672723984480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
